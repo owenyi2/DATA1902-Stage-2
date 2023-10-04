@@ -49,13 +49,17 @@ Plan
         - Chart
     - Oscar
         - Summaries
+            - Group by nominal:
+                - Group by ENSO cycle and ABARES category, then find the mean of each
+            - Group by ordinal:
+                -  Group by binned rainfall and CPI category, then find the mean of each
         - Chart
             - Chart A: 3 attributes
-                - Violin Plot
-                - CPI category (x-axis), CPI value (y-axis), ENSO event but only La Nina/El Nino (colour)
+                - Box Plot
+                - ABARES category (x-axis), production value (y-axis), ENSO event (colour)
             - Chart B: 3 attributes
                 - Line Plot
-                - Date (x-axis), ABARES/CPI category but not sure which yet (y-axis), SOI (colour)
+                - Date (x-axis), % change in CPI (y-axis), ENSO Cycle (colour)
             - Nominal or Ordinal: ENSO event
                 - Chart A
             - Quantitative: CPI value
